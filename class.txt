@@ -1,2 +1,2 @@
-modifying class file
-adding line class file
+[class 2d637b6] adding line
+ 1 file changed, 1 insertion(+)
