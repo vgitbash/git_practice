@@ -1,0 +1,16 @@
+Basic Commands:
+-----------------
+git init 		Initializes a new Git repository.
+git add 		Stages files for commit (e.g., git add app.py). or git add . (stages all files in the current folder for commit)
+git commit  	Saves changes (e.g., git commit -m "Initial commit").
+git push 		Uploads commits to remote (e.g., git push origin main).
+git pull 		Fetches and merges remote changes.
+git clone 		Copies a remote repository locally.
+git status 	    Checks working directory status.
+git diff		Show file changes (unstaged)
+git log 		Views commit history.
+git log --oneline --graph --all/ git log --graph
+git clone       Use when you're downloading a fresh copy of a remote repository.
+git pull 		Use when you want to get the latest changes from the remote into your existing local repo.
+git pull = git fetch + git merge/rebase 
+git fetch 		git fetch downloads new data (commits, branches, tags) from a remote repo into your local Git repository, without changing   your working directory.
